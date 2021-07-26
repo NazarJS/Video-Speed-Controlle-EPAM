@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Video Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+
+    <div class="container">
+     
+      
+
+
+    
+    <div class="wrapper">
+      <video class="flex" width="600" height="300" id="video-player" src="istockphoto-1192348660-640_adpp_is.mp4">
+      </video>
+      <div class="speed">
+        <div class="speed-bar">1×</div>
+      </div>
+      
+    </div>
+
+    <progress id="progress" max="100" value="0" style="width:100%; margin: 0 auto;" ></progress>
+
+    <div class="buttons">
+      <button id="play" class="toggle" title="Toggle Play" >►</button>
+      <button data-skip="-5" class="player__button">« 5s</button>
+      <button data-skip="5" class="player__button"> 5s »</button>
+      <button id="stop">Stop</button>
+      <input type="range" id="volume" min=0 max=100>
+     
+ 
+
+    
+  </div>
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>
